@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <style>
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form
+        {
+            background-color: #f6d4ff;
+        }
+        fieldset
+        {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="list.html" method="get" style="width: fit-content;" style="background-color: #B13ED0;">
+        <fieldset style="width: fit-content;">
+            <legend align="center">LOGIN FORM</legend>
+        Name : <input type="text" name="uname" placeholder="Enter your username" maxlength="10" minlength="3"> <br/><br>
+        email: <input type="email" name="eid">  <br/><br>
+        password: <input type="password" name="pwd"> <br/><br>
+        Number: <input type="number" name="num" min="0" max="100" step="5" required>  <br/><br>
+        Number2: <input type="tel" name="munz">  <br/><br>
+        Male: <input type="radio" name="r1" value="Male"> <br><br>
+        Female: <input type="radio" name="r1" value="Female" checked> <br><br>
+        City: <input type="checkbox" name="c1" value="Ahm" checked> Ahemdabad
+       <input type="checkbox" name="c1" value="srt"> Surat <br><br>
+       Birthdate: <input type="date" name="dob"> <br><br>
+       Select Colour: <input type="color" name="col"> <br><br>
+       <input type="range" min="0" max="100" value="20"><br><br>
+       SearchBar: <input type="search"><br><br>
+       Attach CV: <input type="file" name="f1" accept=".jpg" multiple><br><br>
+       Browser: <input list="browsers" name="browsers">
+       <datalist id="browsers">
+        Chrome: <option value="chrome"></option>
+          ChromeOne: <option value="chromeOn1"></option>
+            Firefox: <option value="firefox"></option>
+       </datalist><br><br>
+        <input type="submit">
+        <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

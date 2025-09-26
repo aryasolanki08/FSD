@@ -1,0 +1,32 @@
+HTML FORMS
+
+<fieldset> --> Border mate use thay jetlo b code ander hase ema border avse.
+<legend> --> Border ni ander ek tittle athwa caption apse.
+enctype --> multipart/formdata
+method --> get(Not secure)/post(Secure + for files)
+action --> submit pachi redirect thay ee
+
+<input>
+attributes
+1) Maxlength --> Range of length
+2) Minlength --> Range of length
+3) required --> Mandatory field
+4) min --> Range of values
+5) max --> Range of values
+6) Step --> For step
+7) value --> Predefiened value
+8) name --> for grouping/variable name in query
+9) id --> for targeting
+10) placeholder --> hint to user
+
+type = 	"text"
+	"email"
+	"password"
+	"number" --> numeric values(step)
+	"tel"	--> numeric values(pattern supportive,provides number pad in mobile)
+	"submit"
+	"reset"
+	"button"
+	"radio" --> Ama name same rakhvanu to j ek select thase nai to diff(name,value attrb compulsory)
+	
+	
