@@ -5,6 +5,8 @@ HTML FORMS
 enctype --> multipart/formdata
 method --> get(Not secure)/post(Secure + for files)
 action --> submit pachi redirect thay ee
+<datalist>
+<option value="chrome"> (aa datalist ni ander lakhvanu)
 
 <input>
 attributes
@@ -27,6 +29,59 @@ type = 	"text"
 	"submit"
 	"reset"
 	"button"
-	"radio" --> Ama name same rakhvanu to j ek select thase nai to diff(name,value attrb compulsory)
-	
+	"radio" --> Ama name same rakhvanu to j ek select thase nai to diff
+		   (name,value attrb compulsory,checked attrb thi already selected hase)
+	"checkbox" --> Ama b name same rakhvanu grouping mate(checked attrb thi already selected hase)
+	"date"
+	"color"
+	"range" (min,max,value <--attbr)
+	"search"
+	"file" --> (accept(.type lakhvani),multiple <--attbr)
+list = "browser" 
+
+<SVG>
+attrb - height,width
+1) <line>
+attrb- 	x1-starting point of line on x axis
+	y1-starting point of line on y axis
+	x2-ending point of line on x axis
+	y2-ending point of line on y axis
+	stroke-Color of line
+	stroke-width-thickness of line
+2) <circle>
+attrb-	cx-Center point on x-axis
+	cy-Center point on y-axis
+	r-radius
+	stroke-color of border of circle
+	stroke-width-thickness of border of circle
+	fill-Color of inner area of circle
+3) <rect>
+attrb-	x-starting point on x
+	y-starting point on y
+	height
+	width
+	stroke-color of border of rect
+	stroke-width-thickness of border of rect
+	fill-Color of inner area of rect
+4)<ellipse>
+attrb-  cx-Center point on x-axis
+	cy-Center point on y-axis
+	rx-Radius on x-axis
+	ry-Radius on y-axis
+	stroke-color of border of ellipse
+	stroke-width-thickness of border of ellipse
+	fill-Color of inner area of ellipse
+5)<text>
+attrb- 	x-starting point on x
+	y-starting point on y
+	font-family
+	font-size
+	fill
+6)<polygon>
+attrb- 	points-points of shape
+	stroke-color of border of ellipse
+	stroke-width-thickness of border of ellipse
+	fill-Color of inner area of ellipse
+	fill-rule-nonzero/evenodd
+
 	
